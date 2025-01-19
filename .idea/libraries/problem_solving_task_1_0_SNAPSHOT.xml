@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="problem-solving-task-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/problem-solving-task/target/problem-solving-task-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
