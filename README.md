@@ -1,7 +1,7 @@
 # School Management Project
 
 ## Overview
-The School Management Project is a comprehensive system for managing various aspects of a school environment. It includes several services that work together to handle configurations, discovery, user management, and notifications. Below is a breakdown of the different services involved in the project.
+The School Management Project is a Demo project for microservice architecture
 
 ##
 Some action may not make sense but its there to make implementation simple.  Gateway hasnt been added since its not much necessary for now . 
