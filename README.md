@@ -27,8 +27,8 @@ Some action may not make sense but its there to make implementation simple.  Gat
 - **Teacher Management:**
   - Teachers are managed by the admin user.
 
-- **Data Storage:**
-  - All user-related data, including students and teachers, is stored in **Redis Cache**. This allows for efficient fetching of user data by their IDs.
+- **Redis Storage:**
+  - All user-related data, including students and teachers, is stored in **Cache** while fetc. It uses **Redis Cache** by default.
   
 - **Kafka Integration:**
   - When a new student or teacher is created, a Kafka message is triggered. Only a simple string serializer is used for message passing.
@@ -63,7 +63,7 @@ Some action may not make sense but its there to make implementation simple.  Gat
 
 ## Security
 - The Config Service is secured with a username and password.
-- Make sure to update the credentials before deploying to a production environment.
+- Default username : admin and password : admin for admin-user : 
 
 ## Conclusion
 This project offers a basic framework for managing a school system, including user management (admin, teachers, and students), configuration handling, service discovery, and notifications.
